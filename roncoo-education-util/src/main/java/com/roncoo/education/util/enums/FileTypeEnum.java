@@ -3,6 +3,7 @@
  */
 package com.roncoo.education.util.enums;
 
+import com.roncoo.education.util.base.BaseException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -13,7 +14,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum FileTypeEnum {
 
-	ALIYUN(1, "阿里云"), QINIU(2, "七牛"), LOCAL(3, "本地");
+	ALIYUN(1, "阿里云"), FDSF(2, "FastDFS"), LOCAL(3, "本地");
 
 	private Integer code;
 
